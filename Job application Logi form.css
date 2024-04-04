@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ccc;
+}
+ 
+.cont{
+  max-width: 900px;
+ margin:0 auto;
+ /* background-color: rgb(75, 14, 229); */
+ /* border: 1px solid red; */
+} 
+
+.box{
+    max-width: 600px;
+    padding: 20px;
+    margin:0 auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.small{
+font-size: 20px;
+}
+
+.page{
+    /* background-color: aqua; */
+}
+
+.para{
+     /* background-color: pink;  */
+     display: flex; 
+     flex-direction: column;
+}
+
+.page{
+    margin-top: 20px;
+    /* background-color: aqua; */
+    display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(200px,  1fr)); 
+     gap: 20px;
+}
+
+label{
+    font-size: 15px;
+}
+
+input,select,textarea{
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+input:focus{
+   outline-color:red;
+}
+
+.button{
+display: flex;
+justify-content:flex-end ;
+ /* background-color:red ;  */
+margin-top: 20px; 
+}
+
+button{
+    background-color: red;
+    border: transparent solid 2px;
+    padding: 5px 10px;
+ font-weight: 600px;
+ color: white;
+ border-radius: 10px;
+ transition: 0.3s ease-in;
+}
+
+button:hover{
+    background-color: grey;
+    border: 2px solid red;
+    color: black;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
